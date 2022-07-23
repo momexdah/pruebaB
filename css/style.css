@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    font-family: Oswald, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    padding: 5px;
+}
+
+.header div header h2{
+    padding: 40px;
+    text-align: right;
+    color: #fff;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210422/pngtree-abstract-white-glitter-navy-blue-background-image_633074.jpg");
+}
+
+.article .container .row .body{
+    border: 1px solid black;
+    margin: 2px;
+    border-radius: 10px;
+}
+.article .container .row .bodyb{
+    border: 1px solid black;
+    margin: 2px;
+    transform: translateY(-91px);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.article .container .row .body .container{
+    height: 300px;
+}
